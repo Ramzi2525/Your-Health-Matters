@@ -1,0 +1,22 @@
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+  <defs>
+    <linearGradient id="g" x1="4" y1="2" x2="26" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7FF6A"/>
+      <stop offset="1" stop-color="#7CF7D3"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="26" height="26" rx="9" fill="url(#g)" opacity="0.95"/>
+  <rect x="1" y="1" width="26" height="26" rx="9" stroke="rgba(255,255,255,0.35)"/>
+
+  <!-- Heart pulse line -->
+  <path d="M5.5 15.2h4.1l1.3-4.2 2.2 8 1.7-5.1h2.1l1.2 1.3h4.4"
+        stroke="rgba(0,0,0,0.78)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Small cross -->
+  <path d="M14 6.6v3.4M12.3 8.3h3.4" stroke="rgba(0,0,0,0.78)" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
+
+
+

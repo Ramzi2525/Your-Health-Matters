@@ -1,0 +1,150 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Your Health Matters — Premium Health Insights</title>
+  <meta name="description" content="Your Health Matters: premium prevention-first testing, clear explanations, and repeatable protocols to track progress over time." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Your Health Matters" />
+  <meta property="og:description" content="Premium prevention-first health insights with clear, actionable reporting." />
+  <meta property="og:type" content="website" />
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Top promo bar -->
+  <div class="topbar" role="banner">
+    <div class="container topbar__inner">
+      <a class="topbar__link" href="#/pricing">HSA/FSA eligible • See pricing</a>
+      <button class="topbar__close" aria-label="Dismiss" data-topbar-close>✕</button>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <a class="brand" href="#/" aria-label="Go to home">
+        <img class="brand__logo" src="./logo.svg" alt="Your Health Matters logo" width="28" height="28" />
+        <span class="brand__name">Your Health Matters</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link" href="#/how-it-works">How it works</a>
+        <a class="nav__link" href="#/what-we-test">What we test</a>
+        <a class="nav__link" href="#/scans">Scans</a>
+        <a class="nav__link" href="#/faq">FAQ</a>
+        <a class="nav__link" href="#/about">About</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="btn btn--ghost" type="button" data-theme-toggle aria-label="Toggle theme">
+          Theme
+        </button>
+        <a class="btn btn--ghost" href="#/login">Login</a>
+        <a class="btn btn--primary" href="#/pricing">Start testing</a>
+
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false" data-menu-btn>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="drawer" data-drawer hidden>
+      <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
+        <div class="drawer__head">
+          <span class="drawer__title">Menu</span>
+          <button class="iconbtn" aria-label="Close menu" data-drawer-close>✕</button>
+        </div>
+
+        <div class="drawer__links">
+          <a href="#/how-it-works" class="drawer__link">How it works</a>
+          <a href="#/what-we-test" class="drawer__link">What we test</a>
+          <a href="#/scans" class="drawer__link">Scans</a>
+          <a href="#/faq" class="drawer__link">FAQ</a>
+          <a href="#/about" class="drawer__link">About</a>
+          <a href="#/pricing" class="drawer__link">Pricing</a>
+          <a href="#/contact" class="drawer__link">Contact</a>
+          <a href="#/login" class="drawer__link">Login</a>
+        </div>
+
+        <div class="drawer__cta">
+          <a class="btn btn--primary btn--block" href="#/pricing">Start testing</a>
+        </div>
+      </div>
+
+      <div class="drawer__backdrop" data-drawer-backdrop></div>
+    </div>
+  </header>
+
+  <!-- Main app mount -->
+  <main id="app" class="app" tabindex="-1"></main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="brand brand--footer">
+          <img class="brand__logo" src="./logo.svg" alt="" width="28" height="28" />
+          <span class="brand__name">Your Health Matters</span>
+        </div>
+
+        <p class="muted">
+          Premium, prevention-first health insights with a calm, trustworthy experience.
+        </p>
+
+        <div class="pillrow">
+          <span class="pill">HSA/FSA eligible</span>
+          <span class="pill">2k+ locations</span>
+          <span class="pill">100+ tests</span>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Product</h4>
+        <a href="#/how-it-works">How it works</a>
+        <a href="#/what-we-test">What we test</a>
+        <a href="#/scans">Scans</a>
+        <a href="#/pricing">Pricing</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#/about">About</a>
+        <a href="#/faq">FAQ</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Support</h4>
+        <a href="#/contact">Contact</a>
+        <a href="#/privacy">Privacy</a>
+        <a href="#/terms">Terms</a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p class="muted">© <span id="year"></span> Your Health Matters. All rights reserved.</p>
+      <div class="footer__mini">
+        <a href="#/terms">Terms</a>
+        <a href="#/privacy">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+
