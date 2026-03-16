@@ -1,0 +1,739 @@
+
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>لكي نصل معاً | حلول تسويقية تفاعلية متكاملة</title>
+  <meta name="description" content="نحن نقدم حلول تسويقية مبتكرة تساعد عملك على النمو والوصول إلى جمهورك المستهدف بفعالية." />
+  <meta name="keywords" content="تسويق, تصميم, استشارات, تطوير, علامة تجارية" />
+  <meta name="theme-color" content="#2563eb" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="لكي نصل معاً | حلول تسويقية تفاعلية متكاملة" />
+  <meta property="og:description" content="حلول تسويقية مبتكرة تناسب احتياجات عملك." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loadingScreen" aria-hidden="false">
+    <div class="loader" role="status" aria-live="polite" aria-label="جاري التحميل">
+      <div class="loader-circle" aria-hidden="true"></div>
+      <p class="loader-text">التحميل جاري...</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar" aria-label="التنقل الرئيسي">
+    <div class="container nav-container">
+      <a href="#home" class="logo" data-aos="fade-right" aria-label="الانتقال إلى الرئيسية">
+        <span class="logo-text">لكي نصل <span>معاً</span></span>
+        <span class="logo-dot" aria-hidden="true"></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+        <li><a href="#about" class="nav-link">من نحن</a></li>
+        <li><a href="#services" class="nav-link">خدماتنا</a></li>
+        <li><a href="#portfolio" class="nav-link">أعمالنا</a></li>
+        <li><a href="#team" class="nav-link">فريقنا</a></li>
+        <li><a href="#contact" class="nav-link">اتصل بنا</a></li>
+        <li><a href="#contact" class="btn btn-primary btn-nav">ابدأ مشروعك</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+      <div class="hero-background" aria-hidden="true">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-text" data-aos="fade-up" data-aos-delay="200">
+          <h1 class="hero-title">
+            <span class="title-line">هنا نحن</span>
+            <span class="title-line highlight">لكي نصل <span>معاً</span></span>
+            <span class="title-line">إلى قمة النجاح</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            نقدم حلول تسويقية مبتكرة تجمع بين الإبداع والتكنولوجيا لتحويل رؤيتك إلى واقع ملموس. نعمل معك خطوة بخطوة لتحقيق أهدافك.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary btn-hero">
+              <span>ابدأ رحلتك معنا</span>
+              <i class="fas fa-arrow-left" aria-hidden="true"></i>
+            </a>
+
+            <a href="#services" class="btn btn-secondary btn-hero">
+              <i class="fas fa-play-circle" aria-hidden="true"></i>
+              <span>شاهد خدماتنا</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
+          <div class="visual-container">
+            <div class="floating-element element-1" aria-hidden="true">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="floating-element element-2" aria-hidden="true">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="floating-element element-3" aria-hidden="true">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+
+            <div class="main-visual">
+              <div class="visual-content">
+                <img
+                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                  alt="فريق عمل"
+                  class="visual-image"
+                  loading="eager"
+                  fetchpriority="high"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator" id="scrollIndicator" aria-label="الانتقال إلى قسم من نحن">
+        <div class="mouse" aria-hidden="true"><div class="wheel"></div></div>
+        <div class="arrow" aria-hidden="true"><i class="fas fa-chevron-down"></i></div>
+      </a>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="stats-section" aria-label="الإحصائيات">
+      <div class="container stats-container">
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="stat-number" data-count="150">0</div>
+          <div class="stat-label">مشروع ناجح</div>
+        </div>
+
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="stat-number" data-count="98">0</div>
+          <div class="stat-label">% رضا العملاء</div>
+        </div>
+
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="stat-number" data-count="50">0</div>
+          <div class="stat-label">خبير متخصص</div>
+        </div>
+
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="stat-number" data-count="24">0</div>
+          <div class="stat-label">دعم على مدار الساعة</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about" aria-label="من نحن">
+      <div class="container about-container">
+        <div class="about-image" data-aos="fade-right">
+          <div class="image-frame">
+            <img
+              src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="من نحن"
+              loading="lazy"
+            />
+            <div class="image-badge"><span>+10 سنوات خبرة</span></div>
+          </div>
+        </div>
+
+        <div class="about-content" data-aos="fade-left">
+          <h2 class="section-title">
+            <span class="title-prefix">من نحن</span>
+            شركاء في رحلة نجاحك
+          </h2>
+
+          <p class="about-description">
+            نحن في <strong>لكي نصل معاً</strong> نؤمن بأن النجاح الحقيقي يأتي من التعاون والشراكة الفعالة.
+            نحن فريق من المحترفين المتخصصين في مجال التسويق الرقمي والتصميم والتطوير، نعمل جنباً إلى جنب مع عملائنا لفهم تحدياتهم وتحويلها إلى فرص نمو.
+          </p>
+
+          <div class="about-features">
+            <div class="feature">
+              <div class="feature-icon" aria-hidden="true"><i class="fas fa-bullseye"></i></div>
+              <div class="feature-content">
+                <h3>رؤيتنا</h3>
+                <p>أن نكون الشريك المفضل للشركات الطموحة في رحلتها نحو النمو والتميز.</p>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature-icon" aria-hidden="true"><i class="fas fa-handshake"></i></div>
+              <div class="feature-content">
+                <h3>قيمنا</h3>
+                <p>التعاون، الإبداع، الشفافية، والالتزام بتحقيق النتائج.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">تعرف علينا أكثر</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services" aria-label="الخدمات">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">
+            <span class="title-prefix">خدماتنا</span>
+            حلول متكاملة لاحتياجاتك
+          </h2>
+          <p class="section-subtitle">نقدم مجموعة متكاملة من الخدمات المصممة خصيصاً لتناسب متطلبات عملك.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon" aria-hidden="true"><i class="fas fa-chart-pie"></i></div>
+            <h3 class="service-title">استراتيجية التسويق</h3>
+            <p class="service-description">نطور استراتيجيات تسويقية شاملة تعتمد على البيانات لتحقيق أهدافك بفعالية قصوى.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> دراسة السوق وتحليل المنافسين</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> تطوير خطة تسويقية متكاملة</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> إدارة الحملات الإعلانية</li>
+            </ul>
+            <a href="#" class="service-link">اكتشف المزيد <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-icon" aria-hidden="true"><i class="fas fa-paint-brush"></i></div>
+            <h3 class="service-title">التصميم الإبداعي</h3>
+            <p class="service-description">نصنع هويات بصرية جذابة وتصاميم تفاعلية تجذب انتباه جمهورك وتعبر عن علامتك التجارية.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> تصميم الهوية البصرية</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> واجهات المستخدم وتجربة المستخدم</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> تصميم المحتوى البصري</li>
+            </ul>
+            <a href="#" class="service-link">اكتشف المزيد <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="service-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-icon" aria-hidden="true"><i class="fas fa-code"></i></div>
+            <h3 class="service-title">تطوير الويب</h3>
+            <p class="service-description">نبني مواقع ويب وتطبيقات متجاوبة وسريعة مع أفضل الممارسات الأمنية والتقنية.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> تطوير مواقع متجاوبة</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> تطبيقات ويب تفاعلية</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> تحسين سرعة وأداء المواقع</li>
+            </ul>
+            <a href="#" class="service-link">اكتشف المزيد <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="service-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-icon" aria-hidden="true"><i class="fas fa-chart-line"></i></div>
+            <h3 class="service-title">التحليلات والتقارير</h3>
+            <p class="service-description">نقدم تقارير مفصلة وتحليلات دقيقة تساعدك في اتخاذ القرارات الاستراتيجية.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> تحليل أداء الحملات</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> تقارير شهرية مفصلة</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> توصيات تحسين مستمرة</li>
+            </ul>
+            <a href="#" class="service-link">اكتشف المزيد <i class="fas fa-arrow-left" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio" aria-label="الأعمال">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">
+            <span class="title-prefix">أعمالنا</span>
+            مشاريع نفتخر بها
+          </h2>
+          <p class="section-subtitle">مجموعة مختارة من مشاريعنا الناجحة التي أثرت بشكل إيجابي على عملائنا.</p>
+        </div>
+
+        <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="100" role="tablist" aria-label="تصفية الأعمال">
+          <button class="filter-btn active" data-filter="all" type="button" role="tab" aria-selected="true">الكل</button>
+          <button class="filter-btn" data-filter="web" type="button" role="tab" aria-selected="false">مواقع ويب</button>
+          <button class="filter-btn" data-filter="branding" type="button" role="tab" aria-selected="false">هوية بصرية</button>
+          <button class="filter-btn" data-filter="marketing" type="button" role="tab" aria-selected="false">تسويق</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-image">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="مشروع موقع تجارة إلكترونية"
+                loading="lazy"
+              />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>منصة تجارة إلكترونية</h3>
+                  <p>تصميم وتطوير منصة متكاملة مع نظام دفع آمن</p>
+                  <a href="#" class="btn btn-primary btn-small">عرض التفاصيل</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-item" data-category="branding" data-aos="fade-up" data-aos-delay="300">
+            <div class="portfolio-image">
+              <img
+                src="https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="مشروع هوية بصرية"
+                loading="lazy"
+              />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>هوية بصرية لمطعم</h3>
+                  <p>تصميم هوية متكاملة تشمل الشعار والمواد الدعائية</p>
+                  <a href="#" class="btn btn-primary btn-small">عرض التفاصيل</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-item" data-category="marketing" data-aos="fade-up" data-aos-delay="400">
+            <div class="portfolio-image">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="حملة تسويقية"
+                loading="lazy"
+              />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>حملة تسويق رقمي</h3>
+                  <p>حملة متكاملة نتج عنها زيادة %200 في المبيعات</p>
+                  <a href="#" class="btn btn-primary btn-small">عرض التفاصيل</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="portfolio-cta" data-aos="fade-up" data-aos-delay="500">
+          <a href="#contact" class="btn btn-secondary">
+            <span>هل لديك مشروع في ذهنك؟</span>
+            <i class="fas fa-lightbulb" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team" aria-label="الفريق">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">
+            <span class="title-prefix">فريقنا</span>
+            العقول المبدعة وراء نجاحنا
+          </h2>
+          <p class="section-subtitle">نحن فريق من الخبراء المتخصصين الذين يعملون بتفان لتحقيق أهداف عملائنا.</p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-image">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="محمد أحمد"
+                loading="lazy"
+              />
+              <div class="member-social" aria-label="روابط محمد أحمد">
+                <a href="#" aria-label="تويتر"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" aria-label="لينكدإن"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" aria-label="إنستغرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">محمد أحمد</h3>
+              <p class="member-role">مدير استراتيجية التسويق</p>
+              <p class="member-bio">خبير في التسويق الرقمي مع أكثر من 10 سنوات خبرة</p>
+            </div>
+          </article>
+
+          <article class="team-member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member-image">
+              <img
+                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="سارة عبدالله"
+                loading="lazy"
+              />
+              <div class="member-social" aria-label="روابط سارة عبدالله">
+                <a href="#" aria-label="تويتر"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" aria-label="لينكدإن"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" aria-label="إنستغرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">سارة عبدالله</h3>
+              <p class="member-role">رئيسة قسم التصميم</p>
+              <p class="member-bio">مصممة جرافيك حائزة على جوائز دولية في التصميم</p>
+            </div>
+          </article>
+
+          <article class="team-member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-image">
+              <img
+                src="https://images.unsplash.com/photo-1507591064344-4c6ce005-128?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="خالد سعيد"
+                loading="lazy"
+              />
+              <div class="member-social" aria-label="روابط خالد سعيد">
+                <a href="#" aria-label="تويتر"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" aria-label="لينكدإن"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" aria-label="إنستغرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">خالد سعيد</h3>
+              <p class="member-role">مطور ويب رئيسي</p>
+              <p class="member-bio">متخصص في تطوير تطبيقات ويب معقدة وتفاعلية</p>
+            </div>
+          </article>
+
+          <article class="team-member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member-image">
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="فاطمة علي"
+                loading="lazy"
+              />
+              <div class="member-social" aria-label="روابط فاطمة علي">
+                <a href="#" aria-label="تويتر"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" aria-label="لينكدإن"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" aria-label="إنستغرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">فاطمة علي</h3>
+              <p class="member-role">محللة بيانات</p>
+              <p class="member-bio">خبيرة في تحليل البيانات واستخراج الرؤى الاستراتيجية</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" aria-label="آراء العملاء">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">
+            <span class="title-prefix">آراء عملائنا</span>
+            ماذا يقولون عنا
+          </h2>
+        </div>
+
+        <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="100">
+          <div class="slider-container" id="testimonialSlider" aria-roledescription="carousel" aria-label="سلايدر آراء العملاء">
+            <div class="slider-track">
+              <article class="testimonial-item">
+                <div class="testimonial-content">
+                  <div class="quote-icon" aria-hidden="true"><i class="fas fa-quote-right"></i></div>
+                  <p class="testimonial-text">
+                    العمل مع فريق "لكي نصل معاً" كان نقلة نوعية لعملي. استطاعوا فهم احتياجاتي وتحويل أفكاري إلى واقع ملموس باحترافية عالية.
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                    alt="عمر الكندري"
+                    loading="lazy"
+                  />
+                  <div class="author-info">
+                    <h4>عمر الكندري</h4>
+                    <p>مدير شركة التقنية المتطورة</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="testimonial-item">
+                <div class="testimonial-content">
+                  <div class="quote-icon" aria-hidden="true"><i class="fas fa-quote-right"></i></div>
+                  <p class="testimonial-text">
+                    لقد تجاوزت النتائج توقعاتنا بكثير. الاستراتيجية التسويقية التي وضعوها أدت إلى زيادة في المبيعات بنسبة %150 في أول 3 أشهر.
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                    alt="نورة القاسم"
+                    loading="lazy"
+                  />
+                  <div class="author-info">
+                    <h4>نورة القاسم</h4>
+                    <p>مالكة متجر إلكتروني للأزياء</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="testimonial-item">
+                <div class="testimonial-content">
+                  <div class="quote-icon" aria-hidden="true"><i class="fas fa-quote-right"></i></div>
+                  <p class="testimonial-text">
+                    المهنية والالتزام بالمواعيد كانت من أبرز ما يميز فريق العمل. موقعنا الجديد ساهم في تعزيز صورتنا التجارية بشكل كبير.
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                    alt="محمد الشمري"
+                    loading="lazy"
+                  />
+                  <div class="author-info">
+                    <h4>محمد الشمري</h4>
+                    <p>رئيس مؤسسة التنمية العربية</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-controls" aria-label="أزرار التنقل في السلايدر">
+            <button class="slider-btn prev-btn" id="prevTestimonial" type="button" aria-label="السابق">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </button>
+            <button class="slider-btn next-btn" id="nextTestimonial" type="button" aria-label="التالي">
+              <i class="fas fa-arrow-left" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" aria-label="اتصل بنا">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-info" data-aos="fade-right">
+            <h2 class="section-title">
+              <span class="title-prefix">اتصل بنا</span>
+              لنبدأ رحلتك معاً
+            </h2>
+
+            <p class="contact-description">
+              مستعدون للاستماع إلى أفكارك وتحويلها إلى واقع. تواصل معنا اليوم لنناقش كيف يمكننا مساعدتك في تحقيق أهدافك.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-text">
+                  <h3>عنواننا</h3>
+                  <p>الرياض، المملكة العربية السعودية</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true"><i class="fas fa-phone"></i></div>
+                <div class="contact-text">
+                  <h3>هاتفنا</h3>
+                  <p dir="ltr">+966 11 123 4567</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true"><i class="fas fa-envelope"></i></div>
+                <div class="contact-text">
+                  <h3>بريدنا الإلكتروني</h3>
+                  <p dir="ltr">info@lakiyenaselmaan.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true"><i class="fas fa-clock"></i></div>
+                <div class="contact-text">
+                  <h3>ساعات العمل</h3>
+                  <p>الأحد - الخميس: 8:00 ص - 6:00 م</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links" aria-label="روابط التواصل الاجتماعي">
+              <a href="#" class="social-link" aria-label="تويتر"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" class="social-link" aria-label="فيسبوك"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" class="social-link" aria-label="لينكدإن"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" class="social-link" aria-label="إنستغرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="social-link" aria-label="يوتيوب"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-form-container" data-aos="fade-left">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="الاسم الكامل" autocomplete="name" required />
+                <label for="name">الاسم الكامل</label>
+              </div>
+
+              <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" autocomplete="email" required />
+                <label for="email">البريد الإلكتروني</label>
+              </div>
+
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="رقم الهاتف" autocomplete="tel" />
+                <label for="phone">رقم الهاتف</label>
+              </div>
+
+              <div class="form-group">
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>اختر الخدمة التي تهمك</option>
+                  <option value="strategy">استراتيجية التسويق</option>
+                  <option value="design">التصميم الإبداعي</option>
+                  <option value="development">تطوير الويب</option>
+                  <option value="analytics">التحليلات والتقارير</option>
+                  <option value="other">خدمة أخرى</option>
+                </select>
+                <label for="service">الخدمة المطلوبة</label>
+              </div>
+
+              <div class="form-group">
+                <textarea id="message" name="message" placeholder="رسالتك" rows="5" required></textarea>
+                <label for="message">رسالتك</label>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">
+                  <span>إرسال الرسالة</span>
+                  <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                </button>
+              </div>
+
+              <div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter" aria-label="النشرة الإخبارية">
+      <div class="container" data-aos="fade-up">
+        <div class="newsletter-content">
+          <h2 class="newsletter-title">ابقَ على اطلاع</h2>
+          <p class="newsletter-subtitle">اشترك في نشرتنا الإخبارية لتصلك أحدث النصائح والتحديثات في عالم التسويق والتصميم.</p>
+
+          <form class="newsletter-form" id="newsletterForm" novalidate>
+            <div class="input-group">
+              <input type="email" name="newsletterEmail" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required />
+              <button type="submit" class="btn btn-primary">
+                <span>اشتراك</span>
+                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+              </button>
+            </div>
+            <p class="newsletter-note">نحن نحترم خصوصيتك. يمكنك إلغاء الاشتراك في أي وقت.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" aria-label="التذييل">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <a href="#home" class="footer-logo" aria-label="العودة للرئيسية">
+            <span class="logo-text">لكي نصل <span>معاً</span></span>
+            <span class="logo-dot" aria-hidden="true"></span>
+          </a>
+          <p class="footer-description">شركة رائدة في تقديم حلول تسويقية وإبداعية تساعد الشركات على النمو والوصول إلى أهدافها.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="footer-title">روابط سريعة</h3>
+          <ul class="footer-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#portfolio">أعمالنا</a></li>
+            <li><a href="#team">فريقنا</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="footer-title">خدماتنا</h3>
+          <ul class="footer-links">
+            <li><a href="#">استراتيجية التسويق</a></li>
+            <li><a href="#">التصميم الإبداعي</a></li>
+            <li><a href="#">تطوير الويب</a></li>
+            <li><a href="#">التحليلات والتقارير</a></li>
+            <li><a href="#">استشارات الأعمال</a></li>
+            <li><a href="#">إدارة العلامة التجارية</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="footer-title">تواصل معنا</h3>
+          <div class="footer-contact">
+            <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> الرياض، المملكة العربية السعودية</p>
+            <p dir="ltr"><i class="fas fa-phone" aria-hidden="true"></i> +966 11 123 4567</p>
+            <p dir="ltr"><i class="fas fa-envelope" aria-hidden="true"></i> info@lakiyenaselmaan.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; <span id="currentYear"></span> لكي نصل معاً. جميع الحقوق محفوظة.</p>
+        </div>
+        <div class="footer-legal">
+          <a href="#">سياسة الخصوصية</a>
+          <a href="#">شروط الاستخدام</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" type="button" aria-label="العودة للأعلى">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <noscript>
+    <div class="noscript">
+      هذا الموقع يحتاج JavaScript لتجربة كاملة.
+    </div>
+  </noscript>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
+
